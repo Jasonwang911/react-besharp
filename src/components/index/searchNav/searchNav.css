@@ -1,0 +1,43 @@
+.roll {
+  width: 100%;
+  height: 1.05rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.searchNav .searchStyle{
+  background:-webkit-linear-gradient(#95AEDA,#0071BC);
+  border-radius: 0 0 0.08rem 0.08rem;
+}
+
+.roll .left,
+.roll .right {
+  width: 14%;
+  float: left;
+  text-align: center;
+}
+
+.roll .left img,
+.roll .right img {
+  width: 0.44rem;
+  height: 0.44rem;
+  margin: 0.15rem 0.3rem 0.05rem;
+}
+
+.roll .left p,
+.roll .right p {
+  font-size: 0.2rem;
+  color: #E9E9EA;
+}
+
+.roll input {
+  width: 70%;
+  height: 0.6rem;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.20);
+  border-radius: 2rem;
+  margin-top: 0.22rem;
+  font-size: 0.24rem;
+}
+.roll input::-webkit-input-placeholder{ text-indent: 0.2rem; color: #fff}
