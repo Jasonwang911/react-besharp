@@ -7,7 +7,7 @@ class SearchNav extends Component {
 	render() {
 		return (
 			<div className="searchNav">
-			    <section className="roll searchStyle">
+			    <section className="roll">
 			      <section className="left">
 					<img src={require('./../../../assets/index/6.png')} alt="登录状态" />
 			        <p>已登录</p>
