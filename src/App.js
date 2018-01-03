@@ -1,8 +1,8 @@
 import React, {
 	Component
 } from 'react';
-import Index from './view/index/index';
-import RFooter from './components/common/footer/footer';
+import Index from '@/view/index/index';
+import RFooter from '@/components/common/footer/footer';
 import './App.css';
 
 class App extends Component {

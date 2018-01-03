@@ -1,10 +1,10 @@
 import React, {
 	Component
 } from 'react';
-import SearchNav from './../../components/index/searchNav/searchNav';
-import RSwiper from './../../components/common/swiper/swiper';
+import SearchNav from '@/components/index/searchNav/searchNav';
+import RSwiper from '@/components/common/swiper/swiper';
 import './index.css';
-import api from './../../api/api';
+import api from '@/api/api';
 
 class Index extends Component {
 	render() {
@@ -14,7 +14,7 @@ class Index extends Component {
 				<RSwiper />
 				{/* 公告栏 */}
 				<section className="banav">
-			      <img src={require('./../../assets/index/10.png')} />
+			      <img src={require('@/assets/index/10.png')} />
 			      <marquee direction="left" behavior="scroll" loop="-1" scrollamount="3" scrolldelay="10" align="middle" bgcolor="#ffffff" height="30" width="80%" hspace="0" vspace="10">我是公告啦啦啦啦啦啦啦啦啦啦啦啦啦</marquee>
 			    </section>
 				{/* 中部菜单栏 */}
