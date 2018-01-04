@@ -6,6 +6,16 @@ import Swiper from 'swiper';
 import 'swiper/dist/css/swiper.min.css';
 
 class RSwiper extends Component {
+	componentDidMount() {
+		new Swiper('.BCindex_container', {
+			pagination: '.BCindex_page',
+			// loop: true,
+			autoplay: 3000,
+			observer: true,
+			observeParents: true
+		});
+	}
+
 	render() {
 		return (
 			<section className="swiper-list">
@@ -21,15 +31,7 @@ class RSwiper extends Component {
 		)
 	}
 
-	componentDidMount() {
-		new Swiper('.BCindex_container', {
-			pagination: '.BCindex_page',
-			// loop: true,
-			autoplay: 3000,
-			observer: true,
-			observeParents: true
-		});
-	}
+
 }
 
 export default RSwiper;

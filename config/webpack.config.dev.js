@@ -203,11 +203,10 @@ module.exports = {
             options: {
               name: 'static/media/[name].[hash:8].[ext]',
             }
+          }, {
+            test: /\.scss$/,
+            loaders: ['style-loader', 'css-loader', 'sass-loader'],
           },
-          {
-        test: /\.scss$/,
-        loaders: ['style-loader', 'css-loader', 'sass-loader'],
-      },
         ],
       },
       // ** STOP ** Are you adding a new loader?
