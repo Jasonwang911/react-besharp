@@ -2,7 +2,6 @@ import React, {
 	Component
 } from 'react';
 import Index from '@/view/index/index';
-import RFooter from '@/components/common/footer/footer';
 import './App.scss';
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
 		        		<li className="btn">asfasdfa</li>
 		        	</ul>
 		        </div>
-		        <RFooter/>
 		    </div>
 		);
 	}

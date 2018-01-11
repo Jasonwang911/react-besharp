@@ -32,34 +32,6 @@ let imgUrl = 'https://finsuit-test.oss-cn-beijing.aliyuncs.com/';
  *  腾讯统计 环境切换  
  */
 
-function statistics() {
-	// 腾讯统计 测试库
-	var _mtac = {};
-	(function() {
-		var mta = document.createElement("script");
-		mta.src = "https://pingjs.qq.com/h5/stats.js?v2.0.4";
-		mta.setAttribute("name", "MTAH5");
-		mta.setAttribute("sid", "500558975");
-		mta.setAttribute("cid", "500558982");
-		var s = document.getElementsByTagName("script")[0];
-		s.parentNode.insertBefore(mta, s);
-	})();
-
-	// 腾讯统计 生产库
-	// var _mtac = {
-	// 	"senseQuery": 1
-	// };
-	// (function() {
-	// 	var mta = document.createElement("script");
-	// 	mta.src = "https://pingjs.qq.com/h5/stats.js?v2.0.4";
-	// 	mta.setAttribute("name", "MTAH5");
-	// 	mta.setAttribute("sid", "500560064");
-	// 	mta.setAttribute("cid", "500560066");
-	// 	var s = document.getElementsByTagName("script")[0];
-	// 	s.parentNode.insertBefore(mta, s);
-	// })();
-}
-
 
 
 // if (process.env.NODE_ENV == 'development') {
@@ -71,8 +43,4 @@ function statistics() {
 export {
 	baseUrlHost,
 	imgUrl
-}
-
-export default {
-	statistics
 }
