@@ -164,7 +164,7 @@
   display: block;
   width: 0.6rem;
   height: 0.6rem;
-  background: url(require('@/assets/lottery/awardclose.png')) no-repeat;
+  background: url(require('~@/assets/lottery/awardclose.png')) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   top: -0.2rem;

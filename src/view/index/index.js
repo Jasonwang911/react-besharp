@@ -2,7 +2,7 @@ import React, {
 	Component
 } from 'react';
 import SearchNav from '@/components/index/searchNav/searchNav';
-import RSwiper from '@/components/common/swiper/swiper';
+// import RSwiper from '@/components/common/swiper/swiper';
 import './index.css';
 import api from '@/api/api';
 
@@ -11,10 +11,10 @@ class Index extends Component {
 		return (
 			<div className="index">
 				<SearchNav />
-				<RSwiper />
+				{/*<RSwiper /> */}
 				{/* 公告栏 */}
 				<section className="banav">
-			      <img src={require('@/assets/index/10.png')} />
+			      <img src={require('@/assets/index/10.png')} alt="this is a log" />
 			      <marquee direction="left" behavior="scroll" loop="-1" scrollamount="3" scrolldelay="10" align="middle" bgcolor="#ffffff" height="30" width="80%" hspace="0" vspace="10">我是公告啦啦啦啦啦啦啦啦啦啦啦啦啦</marquee>
 			    </section>
 				{/* 中部菜单栏 */}

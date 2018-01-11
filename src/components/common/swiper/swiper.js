@@ -2,6 +2,7 @@ import React, {
 	Component
 } from 'react';
 import './swiper.css';
+// var swiper = require('swiper')
 import Swiper from 'swiper';
 import 'swiper/dist/css/swiper.min.css';
 
